@@ -1,0 +1,39 @@
+import React from 'react';
+import { StyleSheet,Text,View} from 'react-native';
+export default class App extends React.Component{
+render(){
+return(
+<View style={styles.container}>
+<text> Hola mi nombre es Mitzi</text>
+
+<text>Está es mi primera vez usando este programa</text>
+
+<text>Y está un poco confuso</text>
+
+<text>Y me estresa que no funcione en el celular</text>
+
+<text>Ya no se que decir jajajaja</text>
+
+<text>Está interesante</text>
+
+<text>Y un poco desordenado</text>
+
+<text>Pero igual sirve</text>
+
+<text>Y funciona bien jaja</text>
+
+<text>Bye.</text>
+
+</View>
+);
+}
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    backgroundColor: '#fff',
+    alignItems: 'center',
+  },
+});
